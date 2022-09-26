@@ -1,0 +1,32 @@
+.line-chart {
+    display: flex;
+    gap: 2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  input {
+    padding: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: grey;
+    
+    
+  }
+  .data {
+    text-align: end;
+    border: none;
+    
+  
+  }
+  .time {
+    /* background: linear-gradient(to right, rgb(107, 227, 207), rgb(107, 227, 207), 50%, lightgray 75%, lightgray 75%); */
+    width: 50%;
+    
+  }
+  
