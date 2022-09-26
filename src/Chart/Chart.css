@@ -1,17 +1,21 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .line-chart {
     display: flex;
-    gap: 2rem;
-  }
-  form {
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
+    width: 100%;
+  }
+  .data {
+    width:15%;
   }
   input {
+    margin-bottom: 1rem;
     padding: 0.5rem;
-    border: 1px solid grey;
-    border-radius: 5px;
-    outline: none;
+    border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: grey;
@@ -21,12 +25,21 @@
   .data {
     text-align: end;
     border: none;
+    width: 15%;
     
   
   }
   .time {
-    /* background: linear-gradient(to right, rgb(107, 227, 207), rgb(107, 227, 207), 50%, lightgray 75%, lightgray 75%); */
-    width: 50%;
+     width: 100%;
     
   }
-  
+  @media (max-width: 768px) {
+    .line-chart {
+      flex-direction: column;
+      gap: 0;
+      width: 80%;
+    }
+    .data {
+      width: 55%;
+    }
+  }
