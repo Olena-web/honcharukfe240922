@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Chart App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,18 +29,30 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### Task:
+Create a React app with a chart component.
+The chart shows the average time spent by a user per page. Here is a design example:
+Your chart should match this concept. Indents and colors are not important, but should follow the main concept of UX..
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Initial Input data:
+[{ name: "Landing Page", time: 7.4 },
+{ name: "Configurator", time: 0.2 },
+{ name: "Check-out", time: 7.0 },
+{ name: "Deal", time: 3.8 }]
+#### Requirements:
+● Chart should have a button, when you click on it data should be changed randomly.
+● Button above should have autoclick every 0.53 min.
+● Chart should be responsive - Iphone X to retina screen (2880 × 1800).
+● Use font-family Roboto, font-size 16px for text and 20px for title.
+(Please do not forget that this font is not available as standard)
+● App can be builded without any warnings.
+● Components and containers of app covered with the tests.
+● It is not allowed to use any chart library.
+#### Frameworks:
+● React 18 (last possible version) with Typescript.
+● Jest and RTL for testing.
+● Plain CSS3 / HTML5
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
